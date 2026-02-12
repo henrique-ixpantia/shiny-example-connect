@@ -1,0 +1,11 @@
+@import "variables";
+
+// Example of using a variable
+body {
+  font-family: sans-serif;
+}
+
+.card-header {
+  font-weight: bold;
+  color: $primary-color;
+}
