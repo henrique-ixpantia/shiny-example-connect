@@ -12,7 +12,8 @@ APP_THEME <- bslib::bs_theme(
 ) |>
   bslib::bs_add_rules(
     sass::sass_file(
-      # Use an absolute path relative to the app's root
-      normalizePath(file.path("styles", "main.scss"))
+      # Use box::file to get a path relative to the project root
+      box::file("../styles/main.scss")
     )
   )
+
