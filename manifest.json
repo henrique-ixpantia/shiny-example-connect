@@ -9,324 +9,89 @@
     "content_category": null,
     "has_parameters": false
   },
-  "environment": {
-    "r": {
-      "requires": "~=4.3.0"
-    }
-  },
   "packages": {
-    "R6": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "R6",
-        "Title": "Encapsulated Classes with Reference Semantics",
-        "Version": "2.5.1"
-      }
-    },
-    "box": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "box",
-        "Title": "Write Reusable, Composable and Modular R Code",
-        "Version": "1.1.3"
-      }
-    },
-    "bslib": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "bslib",
-        "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
-        "Version": "0.5.1"
-      }
-    },
-    "cachem": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "cachem",
-        "Version": "1.0.8",
-        "Title": "Cache R Objects with Automatic Pruning"
-      }
-    },
-    "cpp11": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "cpp11",
-        "Version": "0.5.3",
-        "Title": "A C++11 Interface for R's C Interface",
-        "Depends": "R (>= 4.0.0)"
-      }
-    },
-    "dplyr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "dplyr",
-        "Title": "A Grammar of Data Manipulation",
-        "Version": "1.1.2"
-      }
-    },
-    "fastmap": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "fastmap",
-        "Title": "Fast Data Structures",
-        "Version": "1.1.1"
-      }
-    },
-    "generics": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "generics",
-        "Title": "Common S3 Generics not Provided by Base R Methods Related to Model Fitting",
-        "Version": "0.1.3"
-      }
-    },
-    "ggplot2": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "ggplot2",
-        "Version": "3.4.3",
-        "Title": "Create Elegant Data Visualisations Using the Grammar of Graphics"
-      }
-    },
-    "glue": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "glue",
-        "Title": "Interpreted String Literals",
-        "Version": "1.6.2"
-      }
-    },
-    "gtable": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "gtable",
-        "Title": "Arrange 'Grobs' in Tables",
-        "Version": "0.3.4"
-      }
-    },
-    "htmltools": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "htmltools",
-        "Title": "Tools for HTML",
-        "Version": "0.5.5"
-      }
-    },
-    "jquerylib": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "jquerylib",
-        "Title": "Obtain 'jQuery' as an HTML Dependency Object",
-        "Version": "0.1.4"
-      }
-    },
-    "jsonlite": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "jsonlite",
-        "Version": "1.8.7",
-        "Title": "A Simple and Robust JSON Parser and Generator for R"
-      }
-    },
-    "lifecycle": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "lifecycle",
-        "Title": "Manage the Life Cycle of your Package Functions",
-        "Version": "1.0.3"
-      }
-    },
-    "magrittr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "magrittr",
-        "Title": "A Forward-Pipe Operator for R",
-        "Version": "2.0.3"
-      }
-    },
-    "memoise": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "memoise",
-        "Title": "'Memoisation' of Functions",
-        "Version": "2.0.1"
-      }
-    },
-    "pillar": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "pillar",
-        "Title": "Coloured Formatting for Columns",
-        "Version": "1.9.0"
-      }
-    },
-    "pkgconfig": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "pkgconfig",
-        "Title": "Private Configuration for 'R' Packages",
-        "Version": "2.0.3"
-      }
-    },
-    "purrr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "purrr",
-        "Title": "Functional Programming Tools",
-        "Version": "1.0.2"
-      }
-    },
-    "readr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "readr",
-        "Title": "Read Rectangular Text Data",
-        "Version": "2.1.4"
-      }
-    },
-    "rlang": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "rlang",
-        "Version": "1.1.1",
-        "Title": "Functions for Base Types and Core R and 'Tidyverse' Features"
-      }
-    },
-    "sass": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "sass",
-        "Version": "0.4.7",
-        "Title": "Syntactically Awesome Style Sheets ('Sass')"
-      }
-    },
-    "scales": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "scales",
-        "Title": "Scale Functions for Visualization",
-        "Version": "1.2.1"
-      }
-    },
-    "shiny": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "shiny",
-        "Title": "Web Application Framework for R",
-        "Version": "1.7.5"
-      }
-    },
-    "tibble": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "tibble",
-        "Title": "Simple Data Frames",
-        "Version": "3.2.1"
-      }
-    },
-    "tidyselect": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "tidyselect",
-        "Title": "Select from a Set of Strings",
-        "Version": "1.2.0"
-      }
-    },
-    "tzdb": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "tzdb",
-        "Title": "Time Zone Database Information",
-        "Version": "0.4.0"
-      }
-    },
-    "vctrs": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "vctrs",
-        "Title": "Vector Helpers",
-        "Version": "0.6.3"
-      }
-    },
-    "withr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
-      "description": {
-        "Package": "withr",
-        "Title": "Run Code 'With' Temporarily Modified Global State",
-        "Version": "2.5.0"
-      }
-    }
+    "MASS": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "MASS", "Version": "7.3-65" } },
+    "Matrix": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "Matrix", "Version": "1.7-3" } },
+    "R6": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "R6", "Version": "2.5.1" } },
+    "RColorBrewer": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "RColorBrewer", "Version": "1.1-3" } },
+    "Rcpp": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "Rcpp", "Version": "1.1.1" } },
+    "base64enc": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "base64enc", "Version": "0.1-6" } },
+    "bit": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "bit", "Version": "4.6.0" } },
+    "bit64": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "bit64", "Version": "4.6.0-1" } },
+    "box": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "box", "Version": "1.1.3" } },
+    "bslib": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "bslib", "Version": "0.5.1" } },
+    "cachem": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "cachem", "Version": "1.0.8" } },
+    "cli": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "cli", "Version": "3.6.5" } },
+    "clipr": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "clipr", "Version": "0.8.0" } },
+    "colorspace": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "colorspace", "Version": "2.1-2" } },
+    "commonmark": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "commonmark", "Version": "2.0.0" } },
+    "cpp11": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "cpp11", "Version": "0.5.3" } },
+    "crayon": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "crayon", "Version": "1.5.3" } },
+    "digest": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "digest", "Version": "0.6.39" } },
+    "dplyr": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "dplyr", "Version": "1.1.2" } },
+    "ellipsis": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "ellipsis", "Version": "0.3.2" } },
+    "fansi": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "fansi", "Version": "1.0.7" } },
+    "farver": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "farver", "Version": "2.1.2" } },
+    "fastmap": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "fastmap", "Version": "1.1.1" } },
+    "fontawesome": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "fontawesome", "Version": "0.5.3" } },
+    "fs": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "fs", "Version": "1.6.6" } },
+    "generics": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "generics", "Version": "0.1.3" } },
+    "ggplot2": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "ggplot2", "Version": "3.4.3" } },
+    "glue": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "glue", "Version": "1.6.2" } },
+    "gtable": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "gtable", "Version": "0.3.4" } },
+    "hms": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "hms", "Version": "1.1.4" } },
+    "htmltools": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "htmltools", "Version": "0.5.5" } },
+    "httpuv": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "httpuv", "Version": "1.6.16" } },
+    "isoband": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "isoband", "Version": "0.3.0" } },
+    "jquerylib": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "jquerylib", "Version": "0.1.4" } },
+    "jsonlite": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "jsonlite", "Version": "1.8.7" } },
+    "labeling": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "labeling", "Version": "0.4.3" } },
+    "later": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "later", "Version": "1.4.5" } },
+    "lattice": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "lattice", "Version": "0.22-7" } },
+    "lifecycle": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "lifecycle", "Version": "1.0.3" } },
+    "magrittr": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "magrittr", "Version": "2.0.3" } },
+    "memoise": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "memoise", "Version": "2.0.1" } },
+    "mgcv": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "mgcv", "Version": "1.9-3" } },
+    "mime": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "mime", "Version": "0.13" } },
+    "munsell": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "munsell", "Version": "0.5.1" } },
+    "nlme": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "nlme", "Version": "3.1-168" } },
+    "otel": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "otel", "Version": "0.2.0" } },
+    "pillar": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "pillar", "Version": "1.9.0" } },
+    "pkgconfig": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "pkgconfig", "Version": "2.0.3" } },
+    "prettyunits": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "prettyunits", "Version": "1.2.0" } },
+    "progress": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "progress", "Version": "1.2.3" } },
+    "promises": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "promises", "Version": "1.5.0" } },
+    "rappdirs": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "rappdirs", "Version": "0.3.4" } },
+    "readr": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "readr", "Version": "2.1.4" } },
+    "rlang": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "rlang", "Version": "1.1.1" } },
+    "sass": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "sass", "Version": "0.4.7" } },
+    "scales": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "scales", "Version": "1.2.1" } },
+    "shiny": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "shiny", "Version": "1.7.5" } },
+    "sourcetools": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "sourcetools", "Version": "0.1.7-1" } },
+    "tibble": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "tibble", "Version": "3.2.1" } },
+    "tidyselect": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "tidyselect", "Version": "1.2.0" } },
+    "tzdb": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "tzdb", "Version": "0.4.0" } },
+    "utf8": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "utf8", "Version": "1.2.6" } },
+    "vctrs": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "vctrs", "Version": "0.6.3" } },
+    "viridisLite": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "viridisLite", "Version": "0.4.3" } },
+    "vroom": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "vroom", "Version": "1.7.0" } },
+    "withr": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "withr", "Version": "2.5.0" } },
+    "xtable": { "Source": "CRAN", "Repository": "CRAN", "description": { "Package": "xtable", "Version": "1.8-4" } }
   },
   "files": {
-    ".Rprofile": {
-      "checksum": "15203be8fbbc99ab9d67119d497ee4ce"
-    },
-    "app.R": {
-      "checksum": "e7b92777ef850584dee0acfd079af887"
-    },
-    "r/components/header.R": {
-      "checksum": "ab4539e98997405839ad67e159771771"
-    },
-    "r/components/sidebar.R": {
-      "checksum": "5e2c069a797fc133ecbda0e985e6d4a2"
-    },
-    "r/data/data_loader.R": {
-      "checksum": "bc81bd3fe4636e1441429e78dc321fd2"
-    },
-    "r/data/sample_data.csv": {
-      "checksum": "f2a862c10f0beebc4cfc75cb8712f058"
-    },
-    "r/main.R": {
-      "checksum": "218fbc81b85829f5ac8b41ae8f4994e7"
-    },
-    "r/modules/plot_module.R": {
-      "checksum": "12123bf6c5c6b8eb6acc0df71ada18e8"
-    },
-    "r/utils.R": {
-      "checksum": "032894f5828d4c9641a9477968816247"
-    },
-    "README.md": {
-      "checksum": "80e62855155c9922c151ad63c6e9a07c"
-    },
-    "renv.lock": {
-      "checksum": "bf3f694ea5898930f4af3b0da4d1c982"
-    },
-    "styles/_variables.scss": {
-      "checksum": "310acf511b45696d0d0d3e00128a8803"
-    },
-    "styles/main.scss": {
-      "checksum": "96c63f85a1e5e941c979885fe6317131"
-    }
+    ".Rprofile": { "checksum": "15203be8fbbc99ab9d67119d497ee4ce" },
+    "app.R": { "checksum": "e7b92777ef850584dee0acfd079af887" },
+    "r/components/header.R": { "checksum": "ab4539e98997405839ad67e159771771" },
+    "r/components/sidebar.R": { "checksum": "5e2c069a797fc133ecbda0e985e6d4a2" },
+    "r/data/data_loader.R": { "checksum": "bc81bd3fe4636e1441429e78dc321fd2" },
+    "r/data/sample_data.csv": { "checksum": "f2a862c10f0beebc4cfc75cb8712f058" },
+    "r/main.R": { "checksum": "218fbc81b85829f5ac8b41ae8f4994e7" },
+    "r/modules/plot_module.R": { "checksum": "12123bf6c5c6b8eb6acc0df71ada18e8" },
+    "r/utils.R": { "checksum": "032894f5828d4c9641a9477968816247" },
+    "README.md": { "checksum": "80e62855155c9922c151ad63c6e9a07c" },
+    "renv.lock": { "checksum": "bf3f694ea5898930f4af3b0da4d1c982" },
+    "styles/_variables.scss": { "checksum": "310acf511b45696d0d0d3e00128a8803" },
+    "styles/main.scss": { "checksum": "96c63f85a1e5e941c979885fe6317131" }
   },
   "users": null
 }
